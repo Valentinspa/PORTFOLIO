@@ -11,35 +11,47 @@ li {
   align-items: center;
 }
 #avatar {
-  width: 8vh;
-  margin-top: 1vh;
-  margin-left: 1vh;
+   width:100px;
+   border-top: #7eedf1 solid 8px;
+   border-left: #7eedf1 solid 8px;
+   border-right: #7eedf1 solid 10px;
 }
-menu {
+section {
   display: flex;
   align-items: center;
+  
+ 
+}
+.header-title
+{
+  display: flex;
+  align-items: center;
+ 
 }
 #name {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  font-size: 4vh;
-  margin-left: 2vh;
-  margin-right: 3vh;
-  flex-grow: 1;
+  font-size: 4vh;  
 }
-.li {
+ul{
+  display: flex;
+  gap: 8vw;
+  padding-left: 15vw;
+
+}
+.li{
   background-color: #054861;
   border-radius: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  margin-left: 8vh;
-  margin-right: 8vh;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: inline-block;
+   
+  padding: 10px 10px 10px ;
+}
+
+li a{
+  text-decoration: none;
+  color: #ffffff;
 }
 main {
   display: flex;
@@ -47,7 +59,6 @@ main {
   justify-content: center;
   background-image: url(./img/fond_accueil.jpg);
   background-size: cover;
-  /* aspect-ratio: 16 / 9; */
 }
 h1 {
   color: #ffffff;
@@ -59,7 +70,7 @@ body {
   background-color: #7eedf1;
   overflow: hidden;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 100px 1fr auto;
   height: 100vh;
 }
 footer div {
