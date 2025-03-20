@@ -16,7 +16,7 @@ li {
    border-left: #7eedf1 solid 8px;
    border-right: #7eedf1 solid 10px;
 }
-section {
+#section{
   display: flex;
   align-items: center;
   
