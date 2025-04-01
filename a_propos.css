@@ -11,93 +11,89 @@ li {
   align-items: center;
 }
 #avatar {
-   width:100px;
-   border-top: #7eedf1 solid 8px;
-   border-left: #7eedf1 solid 8px;
-   border-right: #7eedf1 solid 10px;
+  width: 100px;
+  border-top: #7eedf1 solid 8px;
+  border-left: #7eedf1 solid 8px;
+  border-right: #7eedf1 solid 10px;
 }
-#section{
+#section {
   display: flex;
   align-items: center;
-  
- 
 }
-.header-title
-{
+.header-title {
   display: flex;
   align-items: center;
- 
 }
 #name {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  font-size: 4vh;  
+  font-size: 4vh;
 }
-ul{
+ul {
   display: flex;
-  gap: 8vw;
+  gap: 5vw;
   padding-left: 15vw;
-
 }
-.li{
+.li {
   background-color: #054861;
   border-radius: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-   
-  padding: 10px 10px 10px ;
+
+  padding: 10px 10px 10px;
 }
 
-li a{
+li a {
   text-decoration: none;
   color: #ffffff;
 }
 body {
-    background-color: #7eedf1;
-    overflow: hidden;
-    display: grid;
-    grid-template-rows: 100px 1fr auto;
-    height: 100vh;
+  background-color: #7eedf1;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 100px 1fr auto;
+  height: 100vh;
 }
 footer div {
-    float: right;
-    clear: right;
-  }
-  
-  .logoImg {
-    width: 6vh;
-    margin: 2vh;
-  }
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./img/fond_a_propos.jpg);
-    background-size: cover;
-    position: relative;
-    
-  }
-  #about {
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#05486198;
-    max-width: 600px;
-    width: 90%;
-    padding: 20px;
-    position: absolute;
-    right: 10%;
-    border-radius: 10px;
-    text-align: right;
-    
-  }
-  #about h1{
-    margin-bottom: 10px;
-    text-align: center;
-  }
-main p{
+  float: right;
+  clear: right;
+}
+
+.logoImg {
+  width: 6vh;
+  margin: 2vh;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(./img/fond_a_propos.jpg);
+  background-size: cover;
+  position: relative;
+}
+#about {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #05486198;
+  max-width: 600px;
+  width: 90%;
+  padding: 20px;
+  position: absolute;
+  right: 10%;
+  border-radius: 10px;
+  text-align: right;
+  grid-column: 2;
+  justify-self: center;
+  align-self: center;
+}
+#about h1 {
+  font-size: 31px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main p {
   font-style: italic;
-  font-size: 24px;
+  font-size: 27px;
   text-align: justify;
   line-height: 1.4;
   width: 100%;
@@ -105,4 +101,24 @@ main p{
   white-space: normal;
   word-spacing: -2px;
 }
-  
+#myPhoto{
+  width: 250px;
+  border-radius: 50%;
+  border: 7px solid #054861;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+#profile{
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+.logo{
+  width: 80px;
+  border-radius: 15%;
+  position: absolute;
+}
+
+
