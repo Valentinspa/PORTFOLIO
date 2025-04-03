@@ -36,12 +36,16 @@ ul {
 }
 .li {
   background-color: #054861;
+  transition: background-color 0.2s ease;
   border-radius: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
 
   padding: 10px 10px 10px;
+}
+li:hover{
+  background-color: #0A617D;
 }
 
 li a {
@@ -70,6 +74,7 @@ main {
   background-image: url(./img/fond_a_propos.jpg);
   background-size: cover;
   position: relative;
+  align-content: center;
 }
 #about {
   color: #ffffff;
@@ -113,12 +118,24 @@ main p {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100%;
+  height: fit-content;
 }
 .logo{
   width: 80px;
   border-radius: 15%;
-  position: absolute;
+  position: absolute;  
+}
+#logoHtml{
+  bottom: -27%;
+  left: 30%;
+}
+#logoCss{
+  bottom: -35%;
+}
+#logoJs{
+  bottom: -20%;
+  right: 32%;
+  width: 55px;
 }
 
 
