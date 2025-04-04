@@ -11,63 +11,45 @@ li {
   align-items: center;
 }
 #avatar {
-   width:100px;
-   border-top: #7eedf1 solid 8px;
-   border-left: #7eedf1 solid 8px;
-   border-right: #7eedf1 solid 10px;
+  width: 100px;
+  border-top: #7eedf1 solid 8px;
+  border-left: #7eedf1 solid 8px;
+  border-right: #7eedf1 solid 10px;
 }
-#section{
+#section {
   display: flex;
   align-items: center;
-  
- 
 }
-.header-title
-{
+.header-title {
   display: flex;
   align-items: center;
- 
 }
 #name {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  font-size: 4vh;  
+  font-size: 4vh;
 }
-ul{
+ul {
   display: flex;
   gap: 5vw;
   padding-left: 15vw;
-
 }
-.li{
+.li {
   background-color: #054861;
   transition: background-color 0.2s ease;
   border-radius: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-   
-  padding: 10px 10px 10px ;
+
+  padding: 10px 10px 10px;
 }
-li:hover{
-  background-color: #0A617D;
+li:hover {
+  background-color: #0a617d;
 }
-li a{
+li a {
   text-decoration: none;
   color: #ffffff;
-}
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(./img/fond_accueil.jpg);
-  background-size: cover;
-}
-h1 {
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
-  background-color: #000000 30%;
 }
 body {
   background-color: #7eedf1;
@@ -75,6 +57,18 @@ body {
   display: grid;
   grid-template-rows: 100px 1fr auto;
   height: 100vh;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/fond_contact.jpg);
+  background-size: cover;
+}
+#contact{
+    background-color: #1B8BCA75;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer div {
   float: right;
