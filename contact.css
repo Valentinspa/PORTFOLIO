@@ -41,7 +41,6 @@ ul {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-
   padding: 10px 10px 10px;
 }
 li:hover {
@@ -64,12 +63,95 @@ main {
   justify-content: center;
   background-image: url(./img/fond_contact.jpg);
   background-size: cover;
+  padding: 40px 0;
 }
-#contact{
-    background-color: #1B8BCA75;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+#contact {
+  background-color: rgba(27, 139, 202, 0.65);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
+#contact h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(5, 46, 66, 0.8);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  transition: all 0.3s ease;
+}
+
+#contact input:focus, #contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(126, 237, 241, 0.5), 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  background-color: rgba(5, 46, 66, 0.9);
+}
+
+#contact textarea {
+  min-height: 150px;
+  resize: vertical;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+#contact button {
+  padding: 12px 40px;
+  background-color: #054861;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: normal;
+  width: max-content;
+  align-self: center;
+  margin-top: 20px;
+  transition: all 0.3s;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#contact button:hover {
+  background-color: #0a617d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.input-group {
+  display: flex;
+  gap: 15px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
 footer div {
   float: right;
   clear: right;
