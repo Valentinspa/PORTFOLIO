@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO de Valentin SPATAFORA</title>
-    <link rel="stylesheet" href="./accueil.css" />
+    <link rel="stylesheet" href="./style..css" />
     <meta name="author" content="Valentin SPATAFORA" />
     <meta
       name="description"
@@ -18,21 +18,114 @@
           <div>
             <img id="avatar" src="./img/avatar-homme.png" alt="Avatar homme" />
           </div>
+
           <div>
             <p id="name">VALENTIN SPATAFORA</p>
           </div>
         </div>
         <ul>
-          <li class="li"><a href="./index.html">Accueil</a></li>
-          <li class="li"><a href="./a_propos.html">A propos</a></li>
-          <li class="li"><a href="./contact.html">Contact</a></li>
-          <li class="li"><a href="./CV SPATAFORA VALENTIN.pdf" download="CV SPATAFORA VALENTIN">CV</a></li>
+          <li class="li"><a href="#accueil">Accueil</a></li>
+          <li class="li"><a href="#a_propos">A propos</a></li>
+          <li class="li"><a href="#contact">Contact</a></li>
+          <li class="li">
+            <a
+              href="./CV SPATAFORA VALENTIN.pdf"
+              download="CV SPATAFORA VALENTIN"
+              >CV</a
+            >
+          </li>
         </ul>
       </div>
     </header>
-    <main>
-      <h1>DÉVELOPPEUR-WEB</h1>
-    </main>
+    <div id="section-container">
+      <section id="accueil">
+        <div>
+          <h1>DÉVELOPPEUR-WEB</h1>
+        </div>
+      </section>
+      <section id="a_propos">
+        <div id="profile">
+          <!-- Photo de profil -->
+          <img
+            id="myPhoto"
+            src="./img/avatar-homme.png"
+            alt="Photo de profil"
+          />
+          <img
+            id="logoHtml"
+            class="logo"
+            src="./img/logo_html.png"
+            alt="logo_html"
+          />
+          <img
+            id="logoCss"
+            class="logo"
+            src="./img/logo_css.png"
+            alt="logo_css"
+          />
+          <img id="logoJs" class="logo" src="./img/logo_js.png" alt="logo_js" />
+        </div>
+        <div id="info">
+          <h1>A propos de moi :</h1>
+          <p>
+            Hello ! Je m’appelle Valentin Spatafora, Actuellement en formation
+            Développeur Web et Web Mobile. Je recherche un stage pour valider
+            mes acquis. N’hésitez pas à me contacter.
+          </p>
+        </div>
+      </section>
+      <section id="section-contact">
+        <div id="contact">
+          <h1>Contactez moi :</h1>
+          <form action="./contact.html" method="get">
+            <div class="input-group">
+              <input
+                type="text"
+                name="nom"
+                id="nom"
+                placeholder="Nom :"
+                required
+              />
+              <input
+                type="text"
+                name="prenom"
+                id="prenom"
+                placeholder="Prénom :"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="E-mail :"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Téléphone :"
+              />
+            </div>
+            <input
+              type="text"
+              name="object"
+              id="object"
+              placeholder="Objet :"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message :"
+              required
+            ></textarea>
+            <button type="submit" class="li">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </div>
     <footer>
       <div>
         <a
